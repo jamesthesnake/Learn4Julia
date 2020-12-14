@@ -1,32 +1,15 @@
-# learn4haskell
+# learn4Julia
 
-![Learn4Haskell](/images/HacktoberFest2020-Learn4Haskell-Banner.png)
 
 🚨 __Important notice: This course continues BAU even after Hacktoberfest__ 🚨
 
-You can find the results of Hacktoberfest 2020 in the following blog post:
-
- * [Brave New Hacktoberfest](https://kowainik.github.io/posts/hacktoberfest2020)
-
-<hr>
-
-It's the time of the year when thousand pull requests are starting to float in
-the air like a leaf on the wind 🍃
-
-It's Hacktoberfest! And we are happy to be part of this fantastic event.
-
-Usually, people contribute to projects within the communities they spend most of their time
-already and don't try to go out of those boundaries.
-But why not use this time to learn something challenging, something fresh,
-something that you never had time for?
 
 You can get the benefits of Hacktoberfest while learning something new 
 fascinating concepts – Functional Programming with Haskell.
 
 And we're here to help!
 
-* 4 Pull Request to get the T-Shirt or plant a tree as stands in the Hacktoberfest rules.
-* 4 Pull Request to learn to program in Haskell.
+* 4 Pull Request to learn to program in Julia.
 * 4 Pull Request to blow your mind.
 
 ## Table of Contents
@@ -175,30 +158,7 @@ choco install haskell-dev make
 refreshenv
 ```
 
-Then, do [the workaround](https://www.stackage.org/blog/2020/08/ghc-8-10-2-windows-workaround) to alleviate a GHC 8.10.2 issue on Windows which prevents the test suite from building correctly.
 
-If you're on Linux or macOS, then the process is easy:
-
-1. Install [ghcup](https://www.haskell.org/ghcup/) and follow `ghcup`
-   instructions for successful installation (remember to restart your terminal afterwards to avoid an `unknown ghcup command` error on the next step).
-2. Install the latest version of the Haskell compiler — GHC — and the
-   [Cabal](https://www.haskell.org/cabal/) build tool. After you install
-   `ghcup`, it is easy to install the rest with a few commands from your
-   terminal
-
-    ```shell
-    ghcup install ghc 8.10.2
-    ghcup set ghc 8.10.2
-    ghcup install cabal 3.2.0.0
-    ```
-3. Run `cabal update` to fetch the latest info about Haskell packages.
-
-### Haskell IDE
-
-If you don't have any IDE preferences, we recommend installing
-[Visual Studio Code](https://code.visualstudio.com/download) with the
-[Haskell plugin](https://marketplace.visualstudio.com/items?itemName=haskell.haskell).
-The mentioned plugin would give you everything required to immediately start coding with Haskell.
 
 ### How to develop
 
@@ -223,35 +183,4 @@ To run tests only for basic tasks for Chapter One (without the advanced tasks):
 make test-chapter1-basic
 ```
 
-Similar commands are provided for all chapters from One to Four.
-
-## Who we are
-
-[Veronika (@vrom911)](https://vrom911.github.com/) and
-[Dmitrii (@chshersh)](https://kodimensional.dev/) are experienced Haskell developers.
-Together we drive this open source organisation —
-[Kowainik](https://kowainik.github.io/). We have a lot of open source projects
-and libraries in Haskell that are used in the Haskell community. We are also
-working on a lot of tutorials and guides in Haskell and mentoring people who are
-keen to learn Haskell as well. Moreover, Dmitrii has a few years of experience
-teaching Haskell courses in the university to CS students.
-
-We are passionate about Functional Programming and Haskell in particular. But at
-the same time, we understand how difficult it can be to get into all these
-ideas on your own. That is why we've decided to start this course to help
-newcomers. With the interactive learning process and live discussions we've included, Haskell
-will not be that scary. We will do our best so that it especially won't be the case
-for you or any others participating here!
-
-## How can you help
-
-You can help us by supporting us on Ko-Fi or via GitHub sponsorship program:
-
-* [Kowainik Ko-Fi](https://ko-fi.com/kowainik)
-* [Veronika Romashkina via GitHub](https://github.com/sponsors/vrom911)
-* [Dmitrii Kovanikov via GitHub](https://github.com/sponsors/chshersh)
-
-
-We also appreciate any feedback on our course a lot! You can submit your
-feedback using the following form:
-* https://docs.google.com/forms/d/e/1FAIpQLScBVhLxq5CgGnAfIGUE-fCoOUqeGkDY2HXzbT7KV2jjLOsmjQ/viewform
+Similar commands are provided for all chapters from One to Four
